@@ -28,7 +28,7 @@ Decayed conjugative T4SS will be described as:
 - dCONJ_typeFA
 - dCONJ_typeFATA
 
-CONJScan now includes two sets of models. One is specific to the detection of conjugative, decayed conjugative and mobilisable elements in chromosomes and the second to the detection in plasmids. They are compatibles with **MacSyFinder version 2**. Users
+CONJScan now includes two sets of models. One is specific to the detection of conjugative, decayed conjugative and mobilisable elements in chromosomes and the second to the detection in plasmids. They are compatibles with **MacSyFinder version 2**.
 
 ## Installation and Usage with MacSyFinder
 
