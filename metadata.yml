@@ -3,7 +3,6 @@ maintainer:
   name: Charles Coluzzi Eduardo Rocha
   email: ccoluzzi@pasteur.fr erocha@pasteur.fr
 short_desc: CONJScan - Models for detection of conjugative and mobilisable elements.
-vers: 2.0.1
 cite:
   - |
     Charles Coluzzi, M. Pilar Garcillán-Barcia, Fernando de la Cruz, Eduardo P.C. Rocha (2022).
@@ -20,4 +19,4 @@ cite:
     http://dx.doi.org/10.1038/srep23080
 doc: https://github.com/macsy-models/CONJScan
 license: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-copyright: 2018-2022, Institut Pasteur, CNRS
+copyright: 2018-2025, Institut Pasteur, CNRS
