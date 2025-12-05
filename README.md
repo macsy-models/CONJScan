@@ -28,16 +28,19 @@ Decayed conjugative T4SS will be described as:
 - dCONJ_typeFA
 - dCONJ_typeFATA
 
-CONJScan now includes two sets of models. One is specific to the detection of conjugative, decayed conjugative and mobilisable elements in chromosomes and the second to the detection in plasmids. They are compatible with **MacSyFinder version 2**.
+CONJScan now includes two sets of models. One is specific to the detection of conjugative, 
+decayed conjugative and mobilisable elements in chromosomes and the second to the detection in plasmids. 
+They are compatible with **MacSyFinder version 2**.
 
 ## Installation and Usage with MacSyFinder
 
-First, the `macsyfinder` program should be [installed](http://macsyfinder.readthedocs.io/en/latest/). This will also install the `macsydata` tool that enables to easily install this package of MacSyFinder models from this repository.
+First, the `macsyfinder` program should be [installed](http://macsyfinder.readthedocs.io/en/latest/). This will also install the `msf_data` 
+tool that enables to easily install this package of MacSyFinder models from this repository.
 
 
 The basic commands to run are then:
 
-    macsydata install CONJScan
+    msf_data install CONJScan
 
 
 to install the CONJScan package.
@@ -47,7 +50,8 @@ to install the CONJScan package.
 		--models CONJScan/Plasmids system --option 		
 
 
-to run the search on your favorite organism's **Plasmids**, where `system` is one or multiple systems listed above, or `all` to search for all the above listed systems
+to run the search on your favorite organism's **Plasmids**, where `system` is one or multiple systems listed above, 
+or `all` to search for all the above listed systems
 (see [MacSyFinder's documentation](http://macsyfinder.readthedocs.io/en/latest/)).
 
 
@@ -56,11 +60,22 @@ to run the search on your favorite organism's **Plasmids**, where `system` is on
 		--models CONJScan/Chromosome system --option 		
 
 
-to run the search on your favorite organism's **Chromosome**, where `system` is one or multiple systems listed above, or `all` to search for all the above listed systems
+to run the search on your favorite organism's **Chromosome**, where `system` is one or multiple systems listed above, 
+or `all` to search for all the above listed systems
 (see [MacSyFinder's documentation](http://macsyfinder.readthedocs.io/en/latest/)).
 
 
-It has to be noted that the models were designed to be used accordingly to the replicon type. Plasmids models should be used for plasmids typing and Chromosome models should be used for chromosomes. Complete models (T4SS_typeB, T4SS_typeC, T4SS_typeF, T4SS_typeG, T4SS_typeI, T4SS_typeT, T4SS_typeFA, T4SS_typeFATA) can be used alone. However, we strongly recommend that you use **all** systems in each package (/Chromosome or /Plasmids) at once.
+It has to be noted that the models were designed to be used accordingly to the replicon type. 
+Plasmids models should be used for plasmids typing and Chromosome models should be used for chromosomes. 
+Complete models (T4SS_typeB, T4SS_typeC, T4SS_typeF, T4SS_typeG, T4SS_typeI, T4SS_typeT, T4SS_typeFA, T4SS_typeFATA) can be used alone. 
+However, we strongly recommend that you use **all** systems in each package (/Chromosome or /Plasmids) at once.
+
+## Changelog
+
+### 3.1.1
+
+No semantic modifications from 3.1.0 version.
+Fix syntax to be compliant with 2.1 grammar see [MacSyLib documentation](https://macsylib.readthedocs.io/en/latest/modeler_guide/modeling.html#principles-and-how-to-write-macsy-models-definitions)
 
 
 ## References
