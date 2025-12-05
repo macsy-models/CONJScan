@@ -72,9 +72,9 @@ However, we strongly recommend that you use **all** systems in each package (/Ch
 
 ## Changelog
 
-### 3.1.1
+### 2.0.2
 
-No semantic modifications from 3.1.0 version.
+No semantic modifications from 2.0.1 version.
 Fix syntax to be compliant with 2.1 grammar see [MacSyLib documentation](https://macsylib.readthedocs.io/en/latest/modeler_guide/modeling.html#principles-and-how-to-write-macsy-models-definitions)
 
 
