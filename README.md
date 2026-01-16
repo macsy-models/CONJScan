@@ -74,7 +74,6 @@ However, we strongly recommend that you use **all** systems in each package (/Ch
 
 ### 2.1.0
 
-
 - **Existing T4SS_MOBH.hmm profile modified**:
 
     The existing profile *T4SS_MOBH.hmm* has been updated due to low specificity.  
@@ -85,7 +84,6 @@ However, we strongly recommend that you use **all** systems in each package (/Ch
 
     Previous versions of *CONJscan* did not include a profile for the *MOBM relaxase* family.  
     This newly built profile has been incorporated into the module and integrated across all *CONJscan* definitions.
-
 
 
 ### 2.0.2
