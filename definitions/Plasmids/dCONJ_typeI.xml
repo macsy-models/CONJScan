@@ -17,6 +17,7 @@
             <gene name="T4SS_MOBH" />
             <gene name="T4SS_MOBF" />
             <gene name="T4SS_MOBC" />
+            <gene name="T4SS_MOBM"/>
         </exchangeables>
               </gene>
     <gene name="T4SS_I_traE" presence="neutral" />
