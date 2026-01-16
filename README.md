@@ -72,6 +72,22 @@ However, we strongly recommend that you use **all** systems in each package (/Ch
 
 ## Changelog
 
+### 2.1.0
+
+
+- **Existing T4SS_MOBH.hmm profile modified**:
+
+    The existing profile *T4SS_MOBH.hmm* has been updated due to low specificity.  
+    Its *cut_ga* threshold was increased from *15.9* to *100* to reduce false-positive detections.
+
+
+- **New profile T4SS_MOBM.hmm added**:
+
+    Previous versions of *CONJscan* did not include a profile for the *MOBM relaxase* family.  
+    This newly built profile has been incorporated into the module and integrated across all *CONJscan* definitions.
+
+
+
 ### 2.0.2
 
 No semantic modifications from 2.0.1 version.
