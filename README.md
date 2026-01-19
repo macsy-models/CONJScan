@@ -90,7 +90,7 @@ However, we strongly recommend that you use **all** systems in each package (/Ch
 
 No semantic modifications from 2.0.1 version.
 Fix syntax to be compliant with 2.1 grammar see [MacSyLib documentation](https://macsylib.readthedocs.io/en/latest/modeler_guide/modeling.html#principles-and-how-to-write-macsy-models-definitions)
-
+To use these models, you need to have MacSyFinder >= 2.1.6 and MacSylib >= 1.0.4
 
 ## References
 
